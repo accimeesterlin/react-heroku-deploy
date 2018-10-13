@@ -16,7 +16,8 @@ class Login extends React.Component {
   handleSubmit = (event) => {
     event.preventDefault(); // stop the page from refreshing
     const data = {
-      password: '12345'
+      password: '12345',
+      email: 'test@yahoo.com'
     };
 
     axios({
